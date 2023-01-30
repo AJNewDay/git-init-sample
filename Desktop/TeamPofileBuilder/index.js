@@ -98,7 +98,7 @@ function init() {
       console.log(answers.intId);
       console.log(answers.intEmail);
       console.log(answers.intSchool);
-      // writeToFile("README.md", generateMarkdown(answers));
+      writeToFile("index.html", generateMarkdown(answers));
 
       // IF we need data from the prompt method continue our code inside of this functions scope
       // we can declare global variable and then update the value
